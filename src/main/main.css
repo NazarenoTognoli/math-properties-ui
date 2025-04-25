@@ -1,0 +1,65 @@
+body { 
+  background-color: #232323;
+  width: 100vw;
+  min-height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+}
+#root {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  position: inherit;
+}
+
+.controller, .main-container {
+  width: 100%;
+}
+.controller {
+  height: 70px;
+  border-bottom: 2px solid #555;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.controller > button {
+  height: 40px;
+  padding: 0 20px 0 20px;
+  background-color: transparent;
+  border: none;
+  outline: 1px solid #555;
+  color: #ddd;
+  font-weight: bolder;
+  font-size: 16px;
+  cursor: pointer;
+}
+.main-cont {
+  height: calc(100% - 70px);
+}
+.n-reales-cont {
+  width: 100%;
+  height: 400px;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.division-operation-cont{
+  height: 100px;
+  width: 200px;
+  color: #fff;
+  font-size: 22px;
+  background-color: #444;
+}
+.numerador {
+  height: 49px;
+  border-bottom: 1px solid #fff;
+}
+.denominador {
+  height: 50px;
+}
+.numerador, .denominador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
