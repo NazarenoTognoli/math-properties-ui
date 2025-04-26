@@ -11,7 +11,6 @@ body {
   box-sizing: border-box;
   position: inherit;
 }
-
 .controller, .main-container {
   width: 100%;
 }
@@ -34,32 +33,9 @@ body {
   cursor: pointer;
 }
 .main-cont {
-  height: calc(100% - 70px);
-}
-.n-reales-cont {
-  width: 100%;
-  height: 400px;
-  background-color: #333;
   display: flex;
-  justify-content: center;
   align-items: center;
-}
-.division-operation-cont{
-  height: 100px;
-  width: 200px;
-  color: #fff;
-  font-size: 22px;
-  background-color: #444;
-}
-.numerador {
-  height: 49px;
-  border-bottom: 1px solid #fff;
-}
-.denominador {
-  height: 50px;
-}
-.numerador, .denominador {
-  display: flex;
   justify-content: center;
-  align-items: center;
+  height: calc(100vh - 72px);
+  box-sizing: border-box;
 }

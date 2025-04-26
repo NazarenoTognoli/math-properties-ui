@@ -1,0 +1,21 @@
+.multiplication {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.multiplication:hover {
+    outline: 1px solid #000;
+}
+.multiplication__dot {
+    font-size: 22px;
+    color: #fff;
+    padding: 0 10px 0 10px;
+    line-height: .2;
+    transform: translateY(-5px);
+}
+
+.multiplication__factor {
+    font-size: 21px;
+    color: #fff;
+}

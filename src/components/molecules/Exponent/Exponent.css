@@ -1,0 +1,52 @@
+.exponent {
+    position: relative;
+    font-size: 21px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+/*    margin: 0 19px 0 19px;*/
+}
+
+.exponent__not-parenthesis {
+    display: none;
+}
+
+.exponent__parenthesis {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    border-radius: 15px;
+}   
+
+.exponent__left-parenthesis {
+    left: -2px;
+    top: 0;
+    border-left: 1px solid #fff;
+}
+
+.exponent__right-parenthesis{
+    right: -2px;
+    border-right: 1px solid #fff;
+    top: 0;
+}
+
+.exponent__base {
+    height: auto;
+    width: auto;
+    position: relative;
+    z-index: 100;
+    padding: 5px;
+}
+
+.exponent__exponent {
+    width: auto;
+    height: auto;
+    font-size: 14px;
+    position: absolute;
+    right: -14px;
+}
+
+
+.exponent__base:hover, .exponent__exponent:hover {
+    outline: 1px solid #000;
+}
