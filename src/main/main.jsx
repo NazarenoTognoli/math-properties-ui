@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 //components
-import Entero from 'atom/Entero/Entero.jsx'
+import Integer from 'atom/Integer/Integer.jsx'
 import Fraction from 'mol/Fraction/Fraction.jsx'
 import Variable from 'atom/Variable/Variable.jsx'
 import Exponent from 'mol/Exponent/Exponent.jsx'
@@ -20,7 +20,14 @@ createRoot(document.getElementById('root')).render(
     </nav>
     <div className="main-cont">
     <Multiplication factor={[
-      <Exponent exponent="2" parenthesis={true}>
+      <Exponent exponent={<Fraction
+                numerator={<Variable>a</Variable>} 
+                denominator={
+                    <Fraction 
+                    numerator={<Variable>y</Variable>}
+                    denominator=<Variable>x</Variable>>
+                    </Fraction>}>
+                </Fraction>} parenthesis={true}>
           <Fraction 
             numerator={
                 <Fraction

@@ -38,12 +38,30 @@
     padding: 5px;
 }
 
-.exponent__exponent {
+.exponent__exponent, .exponent__exponent-compress-btn {
     width: auto;
     height: auto;
     font-size: 14px;
     position: absolute;
-    right: -14px;
+    left: 100%;
+    bottom: 70%;
+}
+.exponent__exponent-compress-btn {
+    bottom: 100%;
+    border: none;
+    background: transparent;
+    color: #Fff;
+    font-weight: bolder;
+    font-size: 12px;
+    cursor: pointer;
+}
+.exponent__exponent-compress-btn:hover {
+    color: #f00;
+    outline: 1px solid #000;
+}
+
+.exponent__exponent-compress {
+    display: none;
 }
 
 

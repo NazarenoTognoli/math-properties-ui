@@ -4,6 +4,7 @@ body {
   min-height: 100vh;
   box-sizing: border-box;
   position: relative;
+  color: #fff;
 }
 #root {
   width: 100%;
@@ -34,8 +35,10 @@ body {
 }
 .main-cont {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  justify-content: flex-start;
   height: calc(100vh - 72px);
   box-sizing: border-box;
+  padding: 50px;
+  font-size: 21px;
 }
