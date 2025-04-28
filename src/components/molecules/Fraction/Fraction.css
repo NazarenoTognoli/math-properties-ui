@@ -10,9 +10,8 @@
 }
 
 .numerator, .denominator {
-    padding: 10px;
     color: #fff;
-    font-size: 21px;
+/*    font-size: 21px;*/
     height: auto;
     width: auto;
     min-width: 20px;

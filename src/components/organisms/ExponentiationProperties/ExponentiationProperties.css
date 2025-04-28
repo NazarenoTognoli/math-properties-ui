@@ -1,0 +1,21 @@
+.exponentiation-properties-cont {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 100%;
+}
+.exponent-property > span {
+    padding: 10px;
+}
+
+.exponent-property {
+    display: flex;
+    border-right: 1px solid #fff;
+    align-items: center;
+    padding: 20px;
+    padding-right: 40px;
+    height: 100%;
+}
+.exponentiation-properties-cont-disabled {
+    display: none;
+}

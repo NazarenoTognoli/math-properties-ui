@@ -1,0 +1,47 @@
+.root {
+    display: flex;
+    width: auto;
+    height: auto;
+    position: relative;
+    align-items: stretch;
+}
+
+    .index {
+        width: auto;
+        border-bottom: 1px solid #fff;
+        display: inherit;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 1px;
+        font-size: 14px;
+    } 
+    .index:hover {
+        outline: 1px solid #000;
+    }
+
+    .clip-path-separation {
+        width: 10px;
+        clip-path: polygon(97% 0, 100% 0, 100% 3%, 3% 100%, 0 100%, 0 97%);
+        position: relative;
+    }   
+
+        .clip-path-separation > div {
+            width: 100%;
+            height: 100%;
+            background-color: #fff;
+            position: relative;
+        }   
+
+    .radicand {
+        width: auto;
+        border-top: 1px solid #fff;
+        display: flex;
+        align-items: flex-end;  
+        border-radius: 1px;
+    }
+    .radicand:hover {
+        outline: 1px solid #000;
+    }
+.root:hover {
+    outline: 1px solid #000;
+}

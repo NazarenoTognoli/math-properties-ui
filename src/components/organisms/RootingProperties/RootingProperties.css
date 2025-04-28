@@ -1,0 +1,24 @@
+.rooting-properties-cont {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.rooting-properties-1 {
+    height: auto;
+    width: auto;
+    display: inherit;
+    align-items: center;
+    padding: 20px;
+    padding-right: 50px;
+    border-right: 1px solid #fff;
+}
+.rooting-properties-1 > .equal {
+    padding: 20px;
+}
+
+
+
+
+.rooting-properties-cont-disabled {
+    display: none;
+}

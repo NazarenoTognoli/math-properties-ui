@@ -1,0 +1,20 @@
+.fraction-properties-cont-whole {
+    display: inline-flex;
+    height: 100%;
+}
+
+.fraction-properties-cont {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #fff;
+    padding:10px;
+    height: 100%;
+
+}
+.fraction-properties-cont > span 
+{
+    padding: 10px;
+}
+.fraction-properties-cont-disabled {
+    display: none;
+}

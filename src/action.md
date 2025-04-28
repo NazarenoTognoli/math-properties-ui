@@ -10,3 +10,9 @@
 
 
 que sentido tiene?
+
+
+===================================================================0
+
+voy a necesitar agregar una ui en layers para compress y unfold de diferentes entidades logicas pero
+claro para eso tambien necesitaria idetificadores y evitar las benditas dependencias circulares
